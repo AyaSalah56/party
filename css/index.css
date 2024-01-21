@@ -1,0 +1,178 @@
+html
+{
+    scroll-behavior: auto !important;
+}
+
+/*************************************home***************************************/
+
+.home
+{
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6) 0% 100%),url("../image/1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home_contant h1
+{
+    line-height:72px;
+    font-weight:500;
+    font-size:60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* *********************************section 2 ***************************/
+.singers h3
+{
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+    padding-block: 10px;
+    margin: 0px;
+    cursor: pointer;
+}
+.singers p
+{
+    background-color :#CCCCCC;
+    padding-block: 15px;
+    margin: 0px;
+}
+.other-singular
+{
+    display:none;
+}
+
+/*************************************** section 3 ********************************************/
+.join-us
+{
+    background-image: linear-gradient(rgba(230, 96, 100, 0.9) 0% 100% ) ,url("../image/7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.join-us .tim
+{
+    font-weight: 500;
+    font-size: 30px;
+    padding: 50px;
+}
+.join-us .container
+{
+  padding: 100px , 0px;
+}
+
+
+/*************************section 4 ***********************************/
+
+li
+{
+    list-style: none;
+}
+i
+{
+    color: #999;
+}
+
+.social-icon a i
+{
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.4s;
+}
+.social-icon a i:hover
+{
+  color: white;
+  background-color:rgba(214, 46, 51 , 0.6);
+}
+
+.email , .ayhaga h4
+{
+    color: rgba(214, 46, 51 , 0.6);
+}
+
+.head h2
+{
+    color: white;
+    background-color:rgba(214, 46, 51 , 0.6);
+    width:fit-content ;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#cts
+{
+    color: green;
+    font-size: 18px;
+}
+
+#stop
+{
+    color:red;
+    font-size: 18px;
+}
+
+.btns
+{
+    color: white;
+    background-color:rgba(214, 46, 51 , 0.6);
+    width:fit-content ;
+    margin: auto;
+    padding: 10px 15px;
+    border: white;
+}
+
+.form-control:focus {
+    border-color: white ;
+    box-shadow: 0 0 0 0.2rem rgba(214, 46, 51 , 0.4)  ;
+}
+
+
+/*****************************************************navbar***********************************8*/
+
+.openNav
+{
+    cursor: pointer;
+}
+.navaya
+{
+    position: fixed;
+    top: 0px;
+    left:-256.422px ;
+    z-index: 9999;
+    
+}
+.lista
+{
+    background-color: black;
+    height: 100vh;
+    padding-right: 120px;
+}
+
+.lista a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px 8px 20px 32px;
+    display: block;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.lista a:hover
+{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+.lista i 
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
